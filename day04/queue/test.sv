@@ -5,7 +5,7 @@ module queue_operations;
   int pop1, pop2;
   int sum, product, min_val, max_val;
   int original_array[];
-  int red_array[];
+  
   
   initial begin
     $display("Operations");
@@ -38,25 +38,7 @@ module queue_operations;
     original_array.shuffle();
     $display("Shuffled: %p", original_array);
 
-    $display("Array Reduction");
-
-    red_array = '{2, 4, 6, 8};
-
-    sum = 0;
-    foreach (red_array[i]) sum += red_array[i];
-
-    product = 1;
-    
-    foreach (red_array[i]) product *= red_array[i];
-
-    min_val = red_array[0];
-    max_val = red_array[0];
-    foreach (red_array[i]) begin
-      if (red_array[i] < min_val) min_val = red_array[i];
-      if (red_array[i] > max_val) max_val = red_array[i];
-    end
-
-    $display("Sum: %2d, Product: %2d, Min: %2d, Max: %2d", sum, product, min_val, max_val);
+   
   end
 
 endmodule
