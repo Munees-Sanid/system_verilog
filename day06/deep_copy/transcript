@@ -1,0 +1,13 @@
+# vsim -c tb -do "run -all; quit" 
+# Start time: 15:46:43 on Jun 07,2025
+# Loading sv_std.std
+# Loading work.code_sv_unit
+# Loading work.tb
+# run -all
+# h_c2 copied using deep copy
+# a = 70 b = 50 c = 100
+#  original 
+# a = 700 b = 500 c = 1000
+#  quit
+# End time: 15:46:43 on Jun 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
