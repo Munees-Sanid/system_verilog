@@ -1,0 +1,11 @@
+# vsim -c test -do "run -all; quit" 
+# Start time: 00:22:45 on Jun 07,2025
+# Loading sv_std.std
+# Loading work.test_sv_unit
+# Loading work.test
+# run -all
+# hi, iam in parent
+# hi, iam in child
+#  quit
+# End time: 00:22:45 on Jun 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

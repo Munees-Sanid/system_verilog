@@ -1,0 +1,7 @@
+# vsim -c tb -do "run -all; quitcd" .. 
+# Start time: 00:40:21 on Jun 07,2025
+# ** Error (suppressible): (vsim-19) Failed to access library '.' at ".".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 00:40:22 on Jun 07,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

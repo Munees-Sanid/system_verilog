@@ -1,0 +1,11 @@
+# vsim -c tb -do "run -all; quit" 
+# Start time: 15:14:55 on Jun 07,2025
+# Loading sv_std.std
+# Loading work.code_sv_unit
+# Loading work.tb
+# run -all
+# x=100 
+#  y=200
+#  quit
+# End time: 15:14:56 on Jun 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

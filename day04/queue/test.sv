@@ -1,4 +1,4 @@
-module queue_operations;
+module tb1;
 
   int q1[$] = '{15, 20, 25, 30};
 

@@ -1,0 +1,8 @@
+# vsim -c test -do "run -all; quit" 
+# Start time: 00:44:55 on Jun 07,2025
+# ** Error: (vsim-3170) Could not find 'test'.
+#         Searched libraries:
+#             /home/munees-sanid/github/system_verilog/day04/queue/work
+# Error loading design
+# End time: 00:44:55 on Jun 07,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

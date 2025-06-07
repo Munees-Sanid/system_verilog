@@ -1,4 +1,4 @@
-module string_methods_demo;
+module tb;
 
   string str1, str2;
   string concat_str;
@@ -15,7 +15,7 @@ module string_methods_demo;
     $display(str1.len());
     $display(str2.len());
 
-    str1.toupper();
+    str1 = str1.toupper();    // assign back the uppercase string
     $display(str1);
 
     concat_str = {str1, "_", str2};

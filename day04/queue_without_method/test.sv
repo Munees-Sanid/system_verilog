@@ -1,4 +1,4 @@
-module queue;
+module tb;
 
   int q[$] = '{7, 14, 21, 5, 18, 26, 33, 11, 60, 2};
 
