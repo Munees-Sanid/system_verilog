@@ -1,0 +1,9 @@
+# vsim -c tb -do "run -all; quit" 
+# Start time: 17:26:16 on Jun 08,2025
+# Loading sv_std.std
+# Loading work.tb
+# run -all
+# Hi I am in task
+#  quit
+# End time: 17:26:16 on Jun 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
