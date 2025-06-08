@@ -1,0 +1,15 @@
+# vsim -c tb -do "run -all; quit" 
+# Start time: 17:11:56 on Jun 08,2025
+# Loading sv_std.std
+# Loading work.tb
+# run -all
+# Hi I am in Function
+# a=10, b= 20, c= 30
+# Hi I am in Function
+# a=10, b= 20, c= 10
+# Hi I am in Function
+# a=10, b= 20, c= 20
+# Hi I am in Function
+#  quit
+# End time: 17:11:56 on Jun 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
