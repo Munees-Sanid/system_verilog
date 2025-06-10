@@ -1,0 +1,8 @@
+# vsim -c tb -do "run -all; quit" 
+# Start time: 19:50:50 on Jun 10,2025
+# ** Error: (vsim-3170) Could not find 'tb'.
+#         Searched libraries:
+#             /home/munees-sanid/github/system_verilog/day10/even_odd_position_in_constraint/work
+# Error loading design
+# End time: 19:50:50 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
