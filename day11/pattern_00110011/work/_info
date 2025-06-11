@@ -1,0 +1,60 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/munees-sanid/github/system_verilog/day11/pattern_00110011
+Xcode_sv_unit
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1749619655
+VV575RmG=Nj9ndVfPfD<D_0
+r1
+!s85 0
+!i10b 1
+!s100 S8MQG_kEnO81:n06OV4Tf0
+IV575RmG=Nj9ndVfPfD<D_0
+!i103 1
+S1
+R0
+Z3 w1749619652
+Z4 8code.sv
+Z5 Fcode.sv
+!i122 0
+L0 1 0
+Z6 OV;L;2020.1;71
+31
+Z7 !s108 1749619655.000000
+!s107 code.sv|
+Z8 !s90 code.sv|
+!i113 1
+Z9 tCvgOpt 0
+vtb
+R1
+DXx4 work 12 code_sv_unit 0 22 V575RmG=Nj9ndVfPfD<D_0
+R2
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 DB0d:_`oCRT7;^e@K9IQ:1
+Id?Pn5iYzGCd4iT<>lOSQ`0
+!s105 code_sv_unit
+S1
+R0
+R3
+R4
+R5
+!i122 0
+L0 20 9
+R6
+31
+R7
+Z10 !s107 code.sv|
+R8
+!i113 1
+R9
