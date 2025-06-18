@@ -10,7 +10,6 @@ class driver;
     task main();
       forever
         begin
-          tr=new();
           gen2drv.get(tr);
           vif.i <=tr.i;
           vif.s <=tr.s;

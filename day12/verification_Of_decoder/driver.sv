@@ -8,15 +8,21 @@ virtual dec_intf vif;
 		this.vif = vif;
 	endfunction
 		task main();
-		repeat(10)
+		forever 
 			begin
+            
 			gen2drv.get(tr);
 
 			// driving the input 
 
 			vif.i <= tr.i;
+              
+              
+               
 			tr.display("drv");
-              #2;
+          
+             #2;
+              
 			end
 		endtask
 endclass

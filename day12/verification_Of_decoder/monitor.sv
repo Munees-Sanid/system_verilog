@@ -9,10 +9,10 @@ virtual dec_intf vif;
 	endfunction 
 
 	task main();
-	repeat(10)
+	forever
 		begin 
 		#2;
-		tr=new();
+        tr=new();
 		tr.i = vif.i;
 		tr.d = vif.d;
 
@@ -21,3 +21,4 @@ virtual dec_intf vif;
 		end
 	endtask
 endclass
+
