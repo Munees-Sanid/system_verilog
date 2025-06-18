@@ -1,3 +1,9 @@
+`include "transaction.sv"
+`include "generator.sv"
+`include "monitor.sv"
+`include "driver.sv"
+`include "scoreboard.sv"
+
 class environment;
 generator gen;
 driver drv;

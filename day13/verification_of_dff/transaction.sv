@@ -5,7 +5,7 @@ class transaction;
   // constraint if needed
   
   function void display(input string tag);
-    $display("[%s] : d_in : %b : d_out : %b",tag,din,dout);
+    $display("[%s] : d_in = %b  ||  d_out = %b",tag,din,dout);
   endfunction
   // deep copy function
   function transaction copy();
@@ -15,3 +15,4 @@ class transaction;
   endfunction
   
 endclass
+

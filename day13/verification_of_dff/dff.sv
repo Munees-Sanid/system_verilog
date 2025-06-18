@@ -10,10 +10,3 @@ module dff(dff_if vif);
     end
 endmodule
 
-
-interface dff_if;
-logic clk,rst;
-logic din;
-logic dout;
-  
-endinterface
