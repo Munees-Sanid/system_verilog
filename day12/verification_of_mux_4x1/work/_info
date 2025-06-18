@@ -1,0 +1,59 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/munees-sanid/github/system_verilog/day12/verification_of_mux_4x1
+vMUX
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1750152416
+!i10b 1
+!s100 2goNf1AkJIN`OzzFTFf@D0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IIP]0=d^>[N0>TcNnLjR8V0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1750141679
+8mux.v
+Fmux.v
+!i122 0
+L0 1 7
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1750152416.000000
+!s107 scoreboard.sv|monitor.sv|driver.sv|generator.sv|transaction.sv|environment.sv|test.sv|mux.v|interface.sv|top.sv|
+Z7 !s90 top.sv|
+!i113 1
+Z8 tCvgOpt 0
+n@m@u@x
+Ymux_intf
+R1
+R2
+!i10b 1
+!s100 _FSS;Dc@f56lMh94Oe_ge1
+R3
+IFj_^RJQ7[=ddNG6D=jfdY0
+R4
+S1
+R0
+w1750141701
+8interface.sv
+Finterface.sv
+!i122 0
+L0 1 0
+R5
+r1
+!s85 0
+31
+R6
+Z9 !s107 scoreboard.sv|monitor.sv|driver.sv|generator.sv|transaction.sv|environment.sv|test.sv|mux.v|interface.sv|top.sv|
+R7
+!i113 1
+R8

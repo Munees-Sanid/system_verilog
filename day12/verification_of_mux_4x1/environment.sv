@@ -13,8 +13,10 @@ class environment;
 
 	mailbox gen2drv;
 	mailbox mon2scb;
+  event done;
 
 	virtual mux_intf vif;
+  	
 
   function new(virtual mux_intf vif);
 		this.vif = vif;
@@ -22,10 +24,12 @@ class environment;
 		gen2drv = new();
 		mon2scb = new();
 
-		gen = new(gen2drv);
+    gen = new(gen2drv);
 		drv = new(gen2drv , vif); 
 		mon = new(mon2scb , vif);
-		scb = new(mon2scb);
+    scb = new(mon2scb);
+    gen.done=done;
+    scb.done=done;
 		endfunction 
 
 		task run();
@@ -38,5 +42,6 @@ class environment;
 		join_any
 		endtask
 endclass
+
 
 

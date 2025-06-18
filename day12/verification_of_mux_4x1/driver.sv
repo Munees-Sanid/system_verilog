@@ -8,16 +8,18 @@ class driver;
   endfunction
   
     task main();
-      repeat(10)
+      forever
         begin
           tr=new();
           gen2drv.get(tr);
-          vif.i=tr.i;
-          vif.s =tr.s;
+          vif.i <=tr.i;
+          vif.s <=tr.s;
+        
           tr.display("drv");
-          #2;
+            #2;
         end
     endtask
 
 endclass
+
 

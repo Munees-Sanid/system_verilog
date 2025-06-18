@@ -8,7 +8,7 @@ transaction tr;
     this.vif=vif;
   endfunction
   task main();
-    repeat(10)
+    forever
       begin
       
    #2;
@@ -17,7 +17,8 @@ transaction tr;
         tr.s=vif.s;
         tr.y=vif.y;
         mon2scb.put(tr);
-        tr.display("monitor");
+        tr.display("mon");
         
       end
   endtask
+endclass
