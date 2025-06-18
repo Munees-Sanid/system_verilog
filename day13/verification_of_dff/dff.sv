@@ -3,10 +3,10 @@ module dff(dff_if vif);
   
   always@(posedge vif.clk)
     begin
-      if(vif.rst==1'b1)
-        vif.dout <= 1'b0;
+      if(vif.rst)
+        vif.q <= 1'b0;
       else
-        vif.dout <= vif.din;
+        vif.q <= vif.d;
     end
 endmodule
 

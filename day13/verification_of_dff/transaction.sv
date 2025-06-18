@@ -1,17 +1,17 @@
 class transaction;
-  rand bit din;
-  bit dout; 
+  rand bit d;
+  bit q; 
   
   // constraint if needed
   
   function void display(input string tag);
-    $display("[%s] : d_in = %b  ||  d_out = %b",tag,din,dout);
+    $display("[%s] : d = %b  ||  q = %b",tag,d,q);
   endfunction
   // deep copy function
   function transaction copy();
     copy = new();
-    copy.din = this.din;
-    copy.dout = this.dout;
+    copy.d = this.d;
+    copy.q = this.q;
   endfunction
   
 endclass

@@ -15,7 +15,7 @@ class monitor;
     forever begin
        @(posedge vif.clk);
        @(posedge vif.clk);
-       tr.dout = vif.dout;
+       tr.q = vif.q;
        mbx.put(tr);
       tr.display("MON");
     end

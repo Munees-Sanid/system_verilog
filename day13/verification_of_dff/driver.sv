@@ -20,7 +20,7 @@ class driver;
   task run();
     forever begin
       mbx.get(tr);
-      vif.din <= tr.din;
+      vif.d <= tr.d;
       tr.display("DRV");
       @(posedge vif.clk);
     end

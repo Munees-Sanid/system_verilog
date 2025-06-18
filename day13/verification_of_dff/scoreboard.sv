@@ -18,10 +18,11 @@ class scoreboard;
       mbxref.get(trref);
       tr.display("SCB");
       trref.display("REF");
-      if(tr.dout == trref.din)
+      if(tr.q == trref.d)
         $display("[SCO] : Data Matched");
       else
         $display("[SCO] : Data Mismatched"); 
+        $display;
       -> sconext;
     end
   endtask
