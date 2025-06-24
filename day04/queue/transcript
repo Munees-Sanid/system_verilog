@@ -1,8 +1,18 @@
-# vsim -c test -do "run -all; quit" 
-# Start time: 00:44:55 on Jun 07,2025
-# ** Error: (vsim-3170) Could not find 'test'.
-#         Searched libraries:
-#             /home/munees-sanid/github/system_verilog/day04/queue/work
-# Error loading design
-# End time: 00:44:55 on Jun 07,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
+# vsim -c tb -do "run -all; quit" 
+# Start time: 14:25:39 on Jun 24,2025
+# Loading sv_std.std
+# Loading work.tb
+# run -all
+# Operations
+# q1 After push operations: '{6, 15, 20, 25, 30, 11}
+# q1 after pop_front ( 6) and pop_back (11): '{15, 20, 25, 30}
+# q1 after insert at index 3: '{15, 20, 25, 27, 30}
+# q1 after delete at index 4: '{15, 20, 25, 27}
+# q1 size: 4
+# Original: '{5, 3, 7, 2, 6, 11}
+# Sorted:   '{2, 3, 5, 6, 7, 11}
+# Reversed: '{11, 7, 6, 5, 3, 2}
+# Shuffled: '{7, 3, 5, 6, 2, 11}
+#  quit
+# End time: 14:25:39 on Jun 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

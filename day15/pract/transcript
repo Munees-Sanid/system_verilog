@@ -1,0 +1,16 @@
+# vsim -c tb -do "run -all; quit" 
+# Start time: 19:10:31 on Jun 22,2025
+# Loading sv_std.std
+# Loading work.code_sv_unit
+# Loading work.tb
+# run -all
+# ** Fatal: (vsim-7099) Unable to check out a verification license for the randomize() feature.
+#    Time: 0 ps  Iteration: 0  Process: /tb/#INITIAL#73 File: code.sv Line: 76
+# Fatal error in Module tb at code.sv line 76
+# 
+# HDL call sequence:
+# Stopped at code.sv 76 Module tb
+# 
+#  quit
+# End time: 19:10:31 on Jun 22,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

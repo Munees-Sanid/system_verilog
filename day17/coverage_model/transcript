@@ -1,0 +1,9 @@
+# vsim -c tb -do "run -all; quit" 
+# Start time: 12:52:42 on Jun 23,2025
+# Loading sv_std.std
+# Loading work.tb
+# ** Error: (vsim-1) Unable to checkout verification license - testbench generation feature (randomize, randcase, randsequence, covergroup) is only supported with QuestaSim.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: code.sv
+# Error loading design
+# End time: 12:52:42 on Jun 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

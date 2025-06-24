@@ -1,4 +1,4 @@
-module tb1;
+module tb;
 
   int q1[$] = '{15, 20, 25, 30};
 

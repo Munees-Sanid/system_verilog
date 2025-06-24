@@ -1,0 +1,6 @@
+# vsim -c tb -do "run -all; quit" 
+# Start time: 14:22:15 on Jun 24,2025
+# Loading sv_std.std
+# Loading work.tb
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# run -all
